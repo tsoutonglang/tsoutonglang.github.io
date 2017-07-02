@@ -1,1 +1,22 @@
-
+body {
+  background-color: #f7cac9;
+}
+.header, .footer {
+  background-color: #92a8d1;
+  color: #fff;
+  padding: 14px;
+  text-align: center;
+}
+p {
+  color: #ffffff;
+  border: 1px 
+  padding: 15px;
+  margin: 15px;
+  background: #92a8d1;
+}
+a {
+  color: #fff;
+}
+img {
+  margin: 8px 8px 8px 8px;
+}
