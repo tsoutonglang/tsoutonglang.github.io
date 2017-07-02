@@ -4,14 +4,13 @@ body {
 .header, .footer {
   background-color: #92a8d1;
   color: #fff;
-  padding: 14px;
   text-align: center;
 }
 p {
   color: #ffffff;
   border: 1px 
-  padding: 15px;
-  margin: 15px;
+  padding: 28px;
+  margin: 28px;
   background: #92a8d1;
 }
 a {
