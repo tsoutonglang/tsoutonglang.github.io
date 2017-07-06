@@ -17,7 +17,8 @@ a {
   color: #fff;
 }
 img {
-  margin: 8px 8px 8px 8px;
+  height: "128";
+  width: scale 1px;
 }
 .col-md-8 {
   width:66.66666667%
@@ -40,4 +41,13 @@ img {
   height: relative;
   padding: 15px;
   background-color: #92a8d1;
+  margin-top: 15px;
 }
+.flex-container-side stuff {
+  display: flex;
+  display: inline-flex;
+  width: 25%;
+  height: relative;
+  padding: 15px;
+  background-color: #92a8d1;
+  margin-top: 15px;
