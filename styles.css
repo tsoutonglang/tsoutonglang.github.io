@@ -40,7 +40,6 @@ a {
   margin-top: 15px;
 }
 .flex-container-side {
-  alight: right;
   display: flex;
   display: inline-flex;
   width: 25%;
