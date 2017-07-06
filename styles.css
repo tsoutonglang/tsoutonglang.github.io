@@ -16,10 +16,6 @@ p {
 a {
   color: #fff;
 }
-img {
-  height: "128";
-  width: scale 1px;
-}
 .col-md-8 {
   width:66.66666667%
   position: left;
@@ -44,6 +40,7 @@ img {
   margin-top: 15px;
 }
 .flex-container-side {
+  alight: right;
   display: flex;
   display: inline-flex;
   width: 25%;
