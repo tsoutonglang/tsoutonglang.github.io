@@ -3,6 +3,7 @@ body {
 }
 .header, .footer {
   background-color: #92a8d1;
+  background-image:"https://image.ibb.co/cnWyvF/23fadc39ce4efc0b3070c883b4be3578_background_pastel_pantone_2.jpg";
   color: #fff;
   text-align: center;
 }
@@ -15,7 +16,6 @@ p {
 }
 a {
   color: #fff;
-  title="tumblrrrr"
 }
 img {
   margin: 8px 8px 8px 8px;
