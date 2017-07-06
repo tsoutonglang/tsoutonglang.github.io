@@ -3,7 +3,6 @@ body {
 }
 .header, .footer {
   background-color: #92a8d1;
-  background-image:"https://image.ibb.co/cnWyvF/23fadc39ce4efc0b3070c883b4be3578_background_pastel_pantone_2.jpg";
   color: #fff;
   text-align: center;
 }
@@ -19,4 +18,26 @@ a {
 }
 img {
   margin: 8px 8px 8px 8px;
+}
+.col-md-8 {
+  width:66.66666667%
+  position: left;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+}
+.col-md-4 {
+  width: 33.34%;
+  position: right;
+  min-height: 1px;
+  padding-right:15px;
+  padding-left:15px;
+}
+.flex-container {
+  display: flex;
+  display: inline-flex;
+  width: 75%;
+  height: relative;
+  padding: 15px;
+  background-color: #92a8d1;
 }
