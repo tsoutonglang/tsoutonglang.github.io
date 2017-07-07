@@ -40,7 +40,6 @@ img {
   display: inline-flex;
   width: 75%;
   height: relative;
-  padding: 5px;
   margin: 5px;
   align-container: space-around;
   flex-wrap: wrap;
