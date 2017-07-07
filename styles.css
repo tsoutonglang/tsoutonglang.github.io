@@ -17,10 +17,6 @@ p {
 a {
   color: #fff;
 }
-img {
-  background: #92a8d1;
-  padding: 10px;
-}
 .col-md-8 {
   width:66.66666667%
   position: left;
@@ -53,3 +49,7 @@ img {
   background-color: #92a8d1;
   margin-top: 15px;
 }
+.flex-item {
+  width: 100%;
+  background: #92a8d1;
+  padding: 10px;
