@@ -5,6 +5,7 @@ body {
   background-color: #92a8d1;
   color: #fff;
   text-align: center;
+  margin: 5px;
 }
 p {
   color: #ffffff;
@@ -36,14 +37,16 @@ a {
   width: 75%;
   height: relative;
   padding: 15px;
-  background-color: #92a8d1;
   margin: 5px;
+  align-container: space-between;
+  flex-wrap: wrap;
 }
-#.flex-container-side {
-#  display: flex;
-#  display: inline-flex;
-#  width: 25%;
-#  height: relative;
-#  padding: 15px;
-#  background-color: #92a8d1;
-#  margin-top: 15px;
+.flex-container-side {
+  display: flex;
+  display: inline-flex;
+  width: 25%;
+  height: relative;
+  padding: 15px;
+  background-color: #92a8d1;
+  margin-top: 15px;
+}
