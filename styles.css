@@ -41,7 +41,6 @@ img {
   height: relative;
   padding: 5px;
   margin: 5px;
-  background-color: #92a8d1;
   align-container: space-around;
   flex-wrap: wrap;
 }
