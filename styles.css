@@ -37,7 +37,7 @@ a {
   height: relative;
   padding: 15px;
   background-color: #92a8d1;
-  margin-top: 15px;
+  margin: 5px;
 }
 #.flex-container-side {
 #  display: flex;
