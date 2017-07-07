@@ -39,11 +39,11 @@ a {
   background-color: #92a8d1;
   margin-top: 15px;
 }
-.flex-container-side {
-  display: flex;
-  display: inline-flex;
-  width: 25%;
-  height: relative;
-  padding: 15px;
-  background-color: #92a8d1;
-  margin-top: 15px;
+#.flex-container-side {
+#  display: flex;
+#  display: inline-flex;
+#  width: 25%;
+#  height: relative;
+#  padding: 15px;
+#  background-color: #92a8d1;
+#  margin-top: 15px;
