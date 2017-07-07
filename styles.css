@@ -9,7 +9,7 @@ body {
 p {
   color: #ffffff;
   border: 1px 
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
   background: #92a8d1;
   font-size: 14px;
@@ -19,6 +19,7 @@ a {
 }
 img {
   background: #92a8d1;
+  padding: 10px;
 }
 .col-md-8 {
   width:66.66666667%
