@@ -5,6 +5,7 @@ body {
   background-color: #92a8d1;
   color: #fff;
   text-align: center;
+  width: 100%;
 }
 p {
   color: #ffffff;
@@ -48,8 +49,10 @@ a {
   padding: 15px;
   background-color: #92a8d1;
   margin-top: 15px;
+  right: 0;
 }
 .flex-item {
   width: 100%;
   background: #92a8d1;
   padding: 10px;
+}
