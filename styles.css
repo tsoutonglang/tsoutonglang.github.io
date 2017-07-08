@@ -39,7 +39,7 @@ a {
   height: relative;
   margin: 5px;
   align-container: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .flex-container-side {
   display: flex;
