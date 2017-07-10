@@ -56,3 +56,7 @@ a {
 .flex-item {
   width: 100%;
 }
+table, tr, th {
+  position: right;
+  width: 25%;
+}
