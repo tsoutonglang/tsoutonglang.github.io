@@ -56,7 +56,15 @@ a {
 .flex-item {
   width: 100%;
 }
-table, tr, th {
-  position: right;
+table {
+  position: fixed;
+  top: 25;
+  right: 0;
   width: 25%;
 }
+th, td {
+  height: 50px;
+  text-align: center;
+  padding: 10;
+}
+tr:nth-child(even){background-color: #92a8d1}
