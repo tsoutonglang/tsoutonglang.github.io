@@ -10,7 +10,7 @@ body {
 }
 p {
   color: #ffffff;
-  border: 1px 
+  border: 5px 
   padding: 20px;
   margin: 5px;
   background: #92a8d1;
@@ -18,6 +18,12 @@ p {
 }
 a {
   color: #fff;
+}
+img {
+  border: 5px 
+  padding: 20px;
+  margin: 5px;
+  background: #92a8d1;
 }
 .flex-container {
   display: flex;
