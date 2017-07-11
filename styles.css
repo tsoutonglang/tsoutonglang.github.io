@@ -45,7 +45,6 @@ a {
 .flex-container-side {
   display: flex;
   display: inline-flex;
-  position: top;
   width: 25%;
   height: relative;
   padding: 15px;
@@ -58,7 +57,7 @@ a {
 }
 table {
   position: fixed;
-  top: 25;
+  top: 0;
   right: 0;
   width: 25%;
 }
