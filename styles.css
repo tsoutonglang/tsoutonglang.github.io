@@ -27,7 +27,6 @@ img {
 .flex-container {
   display: flex;
   display: inline-flex;
-  float: right;
   height: relative;
   margin: 5px;
   align-container: space-around;
@@ -43,9 +42,11 @@ img {
 }
 .main {
   width: 75%;
+  float: left;
 }
 .side {
   width: 25%;
+  float: right;
 }
 table {
   color: #fff;
