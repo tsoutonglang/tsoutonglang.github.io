@@ -24,22 +24,25 @@ img {
   margin: 5px;
   background: #92a8d1;
 }
-.column {
-  float: left;
-  padding: 15px;
-}
 .flex-container {
   display: flex;
   display: inline-flex;
-  width: 75%;
   height: relative;
+  margin: 5px;
   align-container: space-around;
   flex-wrap: nowrap;
 }
 .flex-item {
   width: 100%;
 }
+.main {
+  width: 75%;
+}
+.side {
+  width: 25%;
+}
 table {
+  float: right;
   right: 0;
   width: 25%;
   color: #fff;
