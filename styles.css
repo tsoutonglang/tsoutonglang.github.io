@@ -24,11 +24,12 @@ img {
   margin: 5px;
   background: #92a8d1;
 }
-.flex-container {
+  .flex-container {
   display: flex;
   display: inline-flex;
   height: relative;
   position: relative;
+  left: 0%;
   width: 75%;
   margin: 5px;
   align-container: space-around;
