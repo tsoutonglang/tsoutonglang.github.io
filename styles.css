@@ -10,8 +10,7 @@ body {
 }
 p {
   color: #ffffff;
-  border: 5px 
-  padding: 20px;
+  border: 15px;
   margin: 5px;
   background: #92a8d1;
   font-size: 14px;
@@ -28,6 +27,7 @@ img {
 .flex-container {
   display: flex;
   display: inline-flex;
+  float: left;
   width: 75%;
   height: relative;
   margin: 5px;
@@ -38,7 +38,7 @@ img {
   width: 100%;
 }
 table {
-  position: fixed;
+  float: right;
   right: 0;
   width: 25%;
   color: #fff;
