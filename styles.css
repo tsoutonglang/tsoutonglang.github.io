@@ -29,7 +29,6 @@ img {
   display: inline-flex;
   width: 75%;
   margin: 5px;
-  flex-wrap: nowrap;
 }
 .flex-item {
   width: 100%;
