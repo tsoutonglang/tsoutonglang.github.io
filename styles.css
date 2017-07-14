@@ -40,13 +40,15 @@ img {
 .flex-item {
   width: 100%;
 }
-.main {
+#main {
   width: 75%;
   float: left;
 }
-.side {
+#side {
   width: 25%;
-  float: left;
+}
+.clear {
+  clear: both;
 }
 table {
   color: #fff;
