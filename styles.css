@@ -27,6 +27,9 @@ img {
 .flex-container {
   display: flex;
   display: inline-flex;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
   width: 75%;
   margin: 5px;
 }
