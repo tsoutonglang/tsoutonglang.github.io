@@ -24,6 +24,8 @@ img {
   padding: 20px;
   margin: 5px;
   background: #92a8d1;
+  width: 250px;
+  heigh: relative;
 }
 .flex-container {
   display: flex;
