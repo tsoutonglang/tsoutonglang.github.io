@@ -43,23 +43,10 @@ img {
   width: 25%;
 }
 table {
-  float: right;
-  right: 0;
-  width: 25%;
   color: #fff;
 }
-td {
+th, td {
   height: 50px;
   text-align: center;
   padding: 10;
-}
-th {
-  padding: 10;
-  text-align: center;
-  image-align: center;
-}
-tr:nth-child(even){background-color: #92a8d1}
-li a {
-  display: block;
-  width: 25%;
 }
