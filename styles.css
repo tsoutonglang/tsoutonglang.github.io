@@ -28,30 +28,18 @@ img {
   display: flex;
   display: inline-flex;
   height: relative;
+  width: 75%;
   margin: 5px;
   align-container: space-around;
   flex-wrap: nowrap;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 .flex-item {
   width: 100%;
 }
-.main {
-  width: 75%;
-  float: left;
-}
-.side {
-  width: 25%;
-}
-.clear {
-  clear: both;
-}
 table {
   color: #fff;
+  position: relative;
+  right: 25%;
 }
 th, td {
   height: 50px;
