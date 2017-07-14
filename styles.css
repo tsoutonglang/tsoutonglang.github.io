@@ -39,10 +39,10 @@ img {
 table {
   color: #fff;
   position: relative;
-  right: 25%;
+  left: 75%;
+  width: 25%;
 }
 th, td {
-  height: 50px;
   text-align: center;
   padding: 10;
 }
