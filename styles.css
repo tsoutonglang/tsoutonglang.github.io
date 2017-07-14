@@ -24,13 +24,15 @@ img {
   margin: 5px;
   background: #92a8d1;
 }
+.column {
+  float: left;
+  padding: 15px;
+}
 .flex-container {
   display: flex;
   display: inline-flex;
-  float:left;
   width: 75%;
   height: relative;
-  margin: 5px;
   align-container: space-around;
   flex-wrap: nowrap;
 }
@@ -38,7 +40,6 @@ img {
   width: 100%;
 }
 table {
-  float: left;
   right: 0;
   width: 25%;
   color: #fff;
