@@ -33,6 +33,11 @@ img {
   align-container: space-around;
   flex-wrap: nowrap;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .flex-item {
   width: 100%;
 }
