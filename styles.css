@@ -46,7 +46,7 @@ img {
 }
 .side {
   width: 25%;
-  fixed: right;
+  fixed: left;
   
 }
 table {
