@@ -46,8 +46,7 @@ img {
 }
 .side {
   width: 25%;
-  fixed: left;
-  
+  float: left;
 }
 table {
   color: #fff;
