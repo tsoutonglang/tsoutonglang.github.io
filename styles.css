@@ -46,3 +46,4 @@ th, td {
   text-align: center;
   padding: 10;
 }
+tr:nth-child(even) {background-color: #92a8d1}
