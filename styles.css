@@ -27,6 +27,7 @@ img {
 .flex-container {
   display: flex;
   display: inline-flex;
+  float: right;
   height: relative;
   margin: 5px;
   align-container: space-around;
