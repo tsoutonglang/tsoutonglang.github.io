@@ -31,17 +31,16 @@ img {
 }
 #flex-container {
   display: flex;
-  display: inline-flex;
   flex-direction: column;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .flex-item {
   width: 100%;
 }
 #main {
-  width: 50%;
+  width: 75%;
+  margin-right: auto;
 }
 #side {
   width: 25%;
