@@ -19,7 +19,7 @@ img {
   padding: 10px;
   margin: 5px;
   background: #92a8d1;
-  height: 250px;
+  height: 100px;
   float: right;
 }
 .flex-container {
@@ -41,5 +41,4 @@ img {
 }
 #side {
   width: 45%;
-  margin-left: auto;
 }
