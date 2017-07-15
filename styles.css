@@ -38,17 +38,17 @@ img {
   flex-direction: column;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .flex-item {
   width: 100%;
 }
 #main {
-  width: 75%;
-  margin-right: auto;
+  width: 45%;
 }
 #side {
-  width: 25%;
-  margin-left: auto;
+  width: 45%;
 }
 table {
   color: #fff;
