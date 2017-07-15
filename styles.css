@@ -27,6 +27,7 @@ img {
 }
 .flex-container {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
