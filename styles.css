@@ -8,6 +8,10 @@ body {
   width: 100%;
   padding:15px;
 }
+h4 {
+  color: #fff;
+  text-align: center;
+}
 p {
   color: #ffffff;
   border: #fff;
