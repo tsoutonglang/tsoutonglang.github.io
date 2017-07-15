@@ -29,7 +29,7 @@ img {
   height: 250px;
   float: right;
 }
-.flex-container {
+#flex-container {
   display: flex;
   display: inline-flex;
   flex-direction: column;
