@@ -31,6 +31,7 @@ img {
   -webkit-justify-content: flex-start;
    justify-content: flex-start;
   width: 45%;
+  margin: 15px;
 }
 .flexcontainer2 {
   display: flex;
@@ -39,6 +40,7 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
   width: 45%;
+  margin: 15px;
   margin-left: auto;
 }
 .flex-item {
