@@ -34,11 +34,16 @@ img {
   display: inline-flex;
   flex-direction: column;
   -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  width: 75%;
+  flex-wrap: wrap;
 }
 .flex-item {
   width: 100%;
+}
+.main {
+  width: 75%;
+}
+.side {
+  width: 25%;
 }
 table {
   color: #fff;
