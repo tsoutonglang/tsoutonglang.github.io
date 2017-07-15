@@ -12,14 +12,6 @@ h4 {
   color: #fff;
   text-align: center;
 }
-p {
-  color: #ffffff;
-  border: #fff;
-  padding: 10px;
-  margin: 5px;
-  background: #92a8d1;
-  font-size: 14px;
-}
 a {
   color: #fff;
 }
@@ -33,28 +25,24 @@ img {
   height: 250px;
   float: right;
 }
-#flex-container {
+.flex-container {
   display: flex;
   flex-direction: column;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
-
 .flex-item {
   width: 100%;
+  color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  background: #92a8d1;
+  font-size: 14px;
 }
 #main {
   width: 45%;
 }
 #side {
   width: 45%;
+  margin-left: auto;
 }
-table {
-  color: #fff;
-}
-th, td {
-  text-align: center;
-  padding: 10;
-}
-tr:nth-child(even) {background-color: #92a8d1}
