@@ -40,10 +40,10 @@ img {
 .flex-item {
   width: 100%;
 }
-.main {
+#main {
   width: 75%;
 }
-.side {
+#side {
   width: 25%;
 }
 table {
