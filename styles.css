@@ -50,6 +50,7 @@ img {
   margin: 5px;
   background: #92a8d1;
   font-size: 14px;
+  flex-wrap:nowrap;
 }
 #main {
   width: 45%;
