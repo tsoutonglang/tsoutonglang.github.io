@@ -27,6 +27,20 @@ img {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+  width: 45%;
+}
+.flexcontainer2 {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+  width: 45%;
 }
 .flex-item {
   width: 100%;
@@ -38,7 +52,11 @@ img {
 }
 #main {
   width: 45%;
+  -webkit-justify-content: flex-start;
+   justify-content: flex-start;
 }
 #side {
   width: 45%;
+  -webkit-justify-content: flex-end;
+   justify-content: flex-end;
 }
