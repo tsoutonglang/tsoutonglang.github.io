@@ -45,6 +45,7 @@ img {
 }
 #side {
   width: 25%;
+  margin-left: auto;
 }
 table {
   color: #fff;
