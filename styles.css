@@ -16,25 +16,20 @@ a {
   color: #fff;
 }
 img {
-  border: 5px;
-  border: #fff;
   padding: 10px;
   margin: 5px;
   background: #92a8d1;
-  width: relative;
   height: 250px;
   float: right;
 }
 .flex-container {
   display: flex;
   display: -webkit-flex;
-  flex-direction: column;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .flex-item {
   width: 100%;
-  height: relative;
   color: #ffffff;
   padding: 10px;
   margin: 5px;
