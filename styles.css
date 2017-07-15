@@ -36,16 +36,12 @@ img {
   -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   width: 75%;
-  margin: 5px;
 }
 .flex-item {
   width: 100%;
 }
 table {
   color: #fff;
-  position: relative;
-  left: 25%;
-  width: 25%;
 }
 th, td {
   text-align: center;
