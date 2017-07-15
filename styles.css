@@ -11,11 +11,14 @@ body {
 p {
   color: #ffffff;
   border: #fff;
-  border: 5px;
-  margin: 5px;
   padding: 10px;
   background: #92a8d1;
   font-size: 14px;
+}
+p.border {
+  border-style: double;
+  border-width: thick;
+  color: #fff;
 }
 a {
   color: #fff;
