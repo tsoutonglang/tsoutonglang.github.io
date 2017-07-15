@@ -19,7 +19,7 @@ img {
   padding: 10px;
   margin: 5px;
   background: #92a8d1;
-  height: 100px;
+  height: 250px;
   float: right;
 }
 .flex-container {
@@ -38,9 +38,8 @@ img {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   flex-direction: column;
-  -webkit-justify-content: flex-end;
-   justify-content: flex-end;
   width: 45%;
+  margin-left: auto;
 }
 .flex-item {
   width: 45%;
