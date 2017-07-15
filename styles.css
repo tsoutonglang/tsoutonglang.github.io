@@ -16,7 +16,7 @@ p {
   font-size: 14px;
 }
 p.border {
-  border-style: double;
+  border-style: dotted;
   border-width: thick;
   color: #fff;
 }
