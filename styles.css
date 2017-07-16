@@ -18,10 +18,7 @@ a {
 img {
   background: #92a8d1;
   float: right;
-  max-width:100%; 
-  max-height:100%;
-  margin:auto;
-  display:block;
+  max-height: 228px;
 }
 .flex-container {
   display: flex;
@@ -48,7 +45,6 @@ img {
   margin: 5px;
   background: #92a8d1;
   font-size: 14px;
-  flex-wrap:nowrap;
 }
 #main {
   width: 75%;
