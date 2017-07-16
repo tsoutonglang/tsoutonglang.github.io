@@ -19,8 +19,8 @@ a {
 img {
   background: #92a8d1;
   float: right;
-  max-height: 228px;
   margin: 0 0 10px 10px;
+  height: 228px;
 }
 p {
   background: #92a8d1;
@@ -29,8 +29,7 @@ p {
   margin: 5px;
 }
 .table {
-  padding:10px; 
-  width:400px; 
+  width:100%; 
 }
 .main {
   width: 75%;
