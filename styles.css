@@ -42,8 +42,7 @@ img {
   margin: 10px;
   margin-left: auto;
 }
-.flex-item {
-  width: 100%;
+.item {
   color: #ffffff;
   padding: 10px;
   margin: 5px;
@@ -52,12 +51,10 @@ img {
   flex-wrap:nowrap;
 }
 #main {
-  width: 50%;
-  -webkit-justify-content: flex-start;
-   justify-content: flex-start;
+  width: 75%;
+  float: left;
 }
 #side {
-  width: 20%;
-  -webkit-justify-content: flex-end;
-   justify-content: flex-end;
+ float: right;
+  width: 25%;
 }
