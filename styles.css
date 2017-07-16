@@ -46,12 +46,12 @@ img {
   background: #92a8d1;
   font-size: 14px;
 }
-#main {
+.main {
   width: 75%;
   float: left;
   margin: 5px;
 }
-#side {
+.side {
  float: right;
   width: 25%;
   margin: 5px;
