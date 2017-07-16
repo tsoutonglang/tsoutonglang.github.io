@@ -31,7 +31,7 @@ img {
   flex-direction: column;
   -webkit-justify-content: flex-start;
    justify-content: flex-start;
-  width: 10%;
+  width: 50;
   margin: 15px;
 }
 .flexcontainer2 {
@@ -42,7 +42,7 @@ img {
   flex-direction: column;
   width: 50%;
   margin: 10px;
-  margin-left: 0%;
+  margin-left: auto;
 }
 .flex-item {
   width: 100%;
