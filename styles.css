@@ -45,6 +45,7 @@ img {
   margin: 5px;
   background: #92a8d1;
   font-size: 14px;
+  width: 75%;
 }
 .main {
   width: 75%;
@@ -55,4 +56,12 @@ img {
  float: right;
   width: 25%;
   margin: 5px;
+}
+#sideitem {
+  color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  background: #92a8d1;
+  font-size: 14px;
+  width: 25%;
 }
