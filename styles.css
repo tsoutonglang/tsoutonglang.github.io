@@ -11,6 +11,7 @@ body {
 h4 {
   color: #fff;
   text-align: center;
+  background: #92a8d1;
 }
 a {
   color: #fff;
@@ -19,33 +20,13 @@ img {
   background: #92a8d1;
   float: right;
   max-height: 228px;
+  margin: 0 0 10px 10px;
 }
-.flex-container {
-  display: flex;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 50%;
-  margin: 15px;
-}
-.flexcontainer2 {
-  display: flex;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 50%;
-  margin: 10px;
-  margin-left: auto;
-}
-.item {
-  color: #ffffff;
+p {
+  background: #92a8d1;
+  color: #fff;
   padding: 10px;
   margin: 5px;
-  background: #92a8d1;
-  font-size: 14px;
-  width: 75%;
 }
 .main {
   width: 75%;
@@ -56,12 +37,4 @@ img {
  float: right;
   width: 25%;
   margin: 5px;
-}
-#sideitem {
-  color: #ffffff;
-  padding: 10px;
-  margin: 5px;
-  background: #92a8d1;
-  font-size: 14px;
-  width: 25%;
 }
