@@ -53,8 +53,10 @@ img {
 #main {
   width: 75%;
   float: left;
+  margin: 5px;
 }
 #side {
  float: right;
   width: 25%;
+  margin: 5px;
 }
