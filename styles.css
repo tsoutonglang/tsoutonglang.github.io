@@ -29,9 +29,7 @@ img {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   flex-direction: column;
-  -webkit-justify-content: flex-start;
-   justify-content: flex-start;
-  width: 50;
+  width: 50%;
   margin: 15px;
 }
 .flexcontainer2 {
