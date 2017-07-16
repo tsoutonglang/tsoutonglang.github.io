@@ -28,6 +28,10 @@ p {
   padding: 10px;
   margin: 5px;
 }
+.table {
+  padding:10px; 
+  width:400px; 
+}
 .main {
   width: 75%;
   float: left;
