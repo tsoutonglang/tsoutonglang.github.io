@@ -8,10 +8,11 @@ body {
   width: 100%;
   padding:15px;
 }
-h4 {
-  color: #fff;
-  text-align: center;
+p {
   background: #92a8d1;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
 }
 a {
   color: #fff;
@@ -19,6 +20,7 @@ a {
 img {
   height: 228px;
   background: #92a8d1;
+  align: right;
 }
 .main {
   width: 70%;
@@ -33,12 +35,6 @@ img {
 .item {
   color: #fff;
   background: #92a8d1;
-  padding: 10px;
-  margin: 5px;
-}
-p {
-  background: #92a8d1;
-  color: #fff;
   padding: 10px;
   margin: 5px;
 }
