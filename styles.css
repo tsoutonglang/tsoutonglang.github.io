@@ -17,19 +17,8 @@ a {
   color: #fff;
 }
 img {
-  background: #92a8d1;
-  float: right;
-  margin: 0 0 10px 10px;
   height: 228px;
-}
-p {
   background: #92a8d1;
-  color: #fff;
-  padding: 10px;
-  margin: 5px;
-}
-.table {
-  width:100%; 
 }
 .main {
   width: 70%;
@@ -39,5 +28,17 @@ p {
 .side {
  float: right;
   width: 25%;
+  margin: 5px;
+}
+.item {
+  color: #fff;
+  background: #92a8d1;
+  padding: 10px;
+  margin: 5px;
+}
+p {
+  background: #92a8d1;
+  color: #fff;
+  padding: 10px;
   margin: 5px;
 }
