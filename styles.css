@@ -5,19 +5,20 @@ body {
   background-color: #92a8d1;
   color: #fff;
   text-align: center;
-  width: 100%;
-  padding: 50px;
+  height:50px;
+  width:100%;
+  background-position:top;
 }
 #headerimage {
   background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
-  padding: 50px;
   width: 100%
 }
 p {
   background: #92a8d1;
   color: #fff;
   padding: 10px;
-  margin: 5px;
+  margin: 25px;
+  width: 400px;
 }
 a {
   color: #fff;
@@ -29,10 +30,10 @@ img {
 .main {
   width: 60%;
   float: left;
-  margin: 5px;
+  right-margin: 25px;
 }
 .side {
  float: right;
-  width: 26%;
-  margin: 5px;
+ width: 26%;
+ left-margin: 5px;
 }
