@@ -1,6 +1,5 @@
 body {
   background-color: #f7cac9;
-  background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
 }
 .header {
   background-color: #92a8d1;
@@ -8,6 +7,11 @@ body {
   text-align: center;
   width: 100%;
   padding: 50px;
+}
+#headerimage {
+  background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
+  padding: 50px;
+  width: 100%
 }
 p {
   background: #92a8d1;
@@ -23,7 +27,7 @@ img {
   background: #92a8d1;
 }
 .main {
-  width: 71%;
+  width: 60%;
   float: left;
   margin: 5px;
 }
