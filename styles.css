@@ -5,11 +5,9 @@ body {
   background-color: #92a8d1;
   color: #fff;
   text-align: center;
-  width:100%;
 }
 #headerimage {
   background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
-  width: 100%;
   padding: 50px;
 }
 p {
