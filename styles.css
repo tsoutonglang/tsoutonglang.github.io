@@ -5,20 +5,19 @@ body {
   background-color: #92a8d1;
   color: #fff;
   text-align: center;
-  padding:50px;
   width:100%;
-  align: top
 }
 #headerimage {
   background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
-  width: 100%
+  width: 100%;
+  padding: 50px;
 }
 p {
   background: #92a8d1;
   color: #fff;
   padding: 10px;
-  margin: 25px;
-  width: 400px;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
 }
 a {
   color: #fff;
@@ -27,14 +26,17 @@ img {
   height: 228px;
   background: #92a8d1;
 }
+.table {
+width: 100%;
+}
 .main {
-  width: 50%;
-  float: left;
-  left-margin: 25x;
+  width: 40%;
+  margin-left: 11%;
+  margin-top:10px;
 }
 .side {
  float: right;
  width: 25%;
- right-margin: 25px;
- position: fixed;
+ margin-right: 20%;
+ margin-top: 10px;
 }
