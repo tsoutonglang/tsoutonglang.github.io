@@ -5,9 +5,9 @@ body {
   background-color: #92a8d1;
   color: #fff;
   text-align: center;
-  height:50px;
+  padding:50px;
   width:100%;
-  background-position:top;
+  align: top
 }
 #headerimage {
   background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
@@ -28,12 +28,13 @@ img {
   background: #92a8d1;
 }
 .main {
-  width: 60%;
+  width: 50%;
   float: left;
-  right-margin: 25px;
+  left-margin: 25x;
 }
 .side {
  float: right;
- width: 26%;
- left-margin: 5px;
+ width: 25%;
+ right-margin: 25px;
+ position: fixed;
 }
