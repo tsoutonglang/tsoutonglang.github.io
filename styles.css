@@ -12,7 +12,7 @@ body {
   background-size: 150px, 150px, 150px, 40px, 225px;
   background-position:65%, 0%, 90%, 8% 40%, 30%;
   font-family: Allura;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .footer {
   background-color: #92a8d1;
@@ -31,23 +31,29 @@ p {
   padding: 10px;
   margin: 0px 0px 5px 0px;
   width: 100%;
-  font-family: Nunito Sans;
+  font-family: Arial;
   font-size: 14px;
-}
-p.border {
-  border-style: solid;
 }
 p.bio {
   color: #fff;
   padding: 10px;
   margin: 0px 0px 5px 0px;
-  font-family: Nunito Sans;
+  font-family: Allura;
   font-size: 14px;
   text-align: center;
   background-image: url(http://image.ibb.co/kGOKHv/d80aa4e3ba54f429c93a52705302c9c9.png), url(http://image.ibb.co/b7Ktcv/Sombra_8bit.png);
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: 15%, 85%;
+}
+p.menu {
+  font-family: Nunito Sans;
+  font-size: 10px;
+  background: #92a8d1;
+  color: #fff;
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  width: 100%;
 }
 p.links {
   color: #fff;
