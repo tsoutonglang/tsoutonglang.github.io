@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: 150px, 150px, 150px, 40px, 225px;
   background-position:65%, 0%, 90%, 8% 40%, 30%;
-  font-family: Georgia;
+  font-family: Allura;
   letter-spacing: 5px;
 }
 .footer {
@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-size: 38px;
   background-position: 55%, 45%;
-  font-family: Georgia;
+  font-family: Nunito Sans;
 }
 p {
   background: #92a8d1;
@@ -41,7 +41,7 @@ p.bio {
   color: #fff;
   padding: 10px;
   margin: 0px 0px 5px 0px;
-  font-family: Georgia;
+  font-family: Nunito Sans;
   font-size: 14px;
   text-align: center;
   background-image: url(http://image.ibb.co/kGOKHv/d80aa4e3ba54f429c93a52705302c9c9.png), url(http://image.ibb.co/b7Ktcv/Sombra_8bit.png);
