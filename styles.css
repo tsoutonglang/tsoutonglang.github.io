@@ -2,17 +2,19 @@ body {
   background-color: #f7cac9;
   background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
 }
+
 .header {
   background-color: #92a8d1;
-  color: #fff;
-  text-align: center;
-  padding: 50px;
+  padding: 25px;
   background-image: url(https://image.ibb.co/jPEeja/tumblr_static_6tn39y0ai4kkc40ogco8w40c0.png), url(https://image.ibb.co/irsocv/tumblr_static_e4cn6zomntsg88s84k4s88kks.png), url(http://31.media.tumblr.com/3d121370be048eb3da5ae01bd205cc16/tumblr_n8wl8dBzX51rd3rxko1_500.gif), url(http://image.ibb.co/b9YfPa/tumblr_n06h07g_Djg1t7r88xo1_500.gif), url(http://image.ibb.co/d5aPZa/tumblr_oqa85t_OORg1ta3qx5o1_500.gif);
   background-repeat: no-repeat;
   background-size: 150px, 150px, 150px, 40px, 225px;
-  background-position:65%, 0%, 90%, 8% 40%, 30%;
+  background-position:66%, 0%, 100%, 8% 40%, 30%;
+  color: #fff;
+  text-align: center;
   font-family: Allura;
   letter-spacing: 2px;
+  font-size: 25px;
 }
 .footer {
   background-color: #92a8d1;
@@ -25,6 +27,7 @@ body {
   background-position: 55%, 45%;
   font-family: Nunito Sans;
 }
+
 p {
   background: #92a8d1;
   color: #fff;
@@ -35,13 +38,15 @@ p {
   font-size: 14px;
 }
 p.bio {
-  color: #fff;
-  padding: 10px;
   margin: 0px 0px 5px 0px;
+  padding: 10px;
+  color: #fff;
   font-family: Allura;
+  font-size: 23px;
+  letter-spacing: 2px;
   text-align: center;
   background-image: url(http://image.ibb.co/kGOKHv/d80aa4e3ba54f429c93a52705302c9c9.png), url(http://image.ibb.co/b7Ktcv/Sombra_8bit.png);
-  background-size: 40px;
+  background-size: 60px;
   background-repeat: no-repeat;
   background-position: 15%, 85%;
 }
@@ -61,23 +66,33 @@ p.links {
   font-size: 14px;
   text-align: center;
 }
+
 a {
   color: #fff;
 }
 img {
-  height: 228px;
+  height: 225px;
   background: #92a8d1;
+  padding: 10px;
 }
+img.pfp {
+  background: #92a8d1;
+  padding: 10px;
+  margin-left:23%;
+  height: 200px;
+}
+
 /* main 2 columns */
 .main {
   width: 45%;
   margin-left: 11%;
-  margin-top:10px;
-  margin-bottom: 10px;
+  margin-top:5px;
+  margin-bottom: 5px;
 }
 .side {
  float: right;
  width: 25%;
  margin-right: 15%;
- margin-top: 10px;
+ margin-top: 5px;
+ margin-bottom: 5px;
 }
