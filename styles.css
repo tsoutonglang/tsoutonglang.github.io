@@ -6,15 +6,23 @@ body {
 .header {
   background-color: #92a8d1;
   padding: 25px;
-  background-image: url(https://image.ibb.co/jPEeja/tumblr_static_6tn39y0ai4kkc40ogco8w40c0.png), url(https://image.ibb.co/irsocv/tumblr_static_e4cn6zomntsg88s84k4s88kks.png), url(http://31.media.tumblr.com/3d121370be048eb3da5ae01bd205cc16/tumblr_n8wl8dBzX51rd3rxko1_500.gif), url(http://image.ibb.co/b9YfPa/tumblr_n06h07g_Djg1t7r88xo1_500.gif), url(http://image.ibb.co/d5aPZa/tumblr_oqa85t_OORg1ta3qx5o1_500.gif);
+  background-image: url(https://image.ibb.co/jPEeja/tumblr_static_6tn39y0ai4kkc40ogco8w40c0.png), url(https://image.ibb.co/irsocv/tumblr_static_e4cn6zomntsg88s84k4s88kks.png), url(https://68.media.tumblr.com/49d93069b28ad148e23a1747b021680b/tumblr_mtn5r7q2aN1rum8i3o1_400.gif), url(http://image.ibb.co/b9YfPa/tumblr_n06h07g_Djg1t7r88xo1_500.gif), url(http://image.ibb.co/d5aPZa/tumblr_oqa85t_OORg1ta3qx5o1_500.gif);
   background-repeat: no-repeat;
-  background-size: 150px, 150px, 150px, 40px, 225px;
+  background-size: 150px, 150px, 300px, 40px, 225px;
   background-position:66%, 0%, 100%, 8% 40%, 30%;
   color: #fff;
   text-align: center;
   font-family: Allura;
   letter-spacing: 2px;
   font-size: 25px;
+}
+p {
+background: #92a8d1;
+color: #fff;
+padding: 10px;
+margin: 0px 0px 5px 0px;
+font-family: Arial;
+font-size: 14px;
 }
 .footer {
   background-color: #92a8d1;
@@ -23,19 +31,9 @@ body {
   padding: 10px;
   background-image: url(https://image.ibb.co/j9FVqF/edaf9786_f208_4067_b785_081226d3f66f.gif), url(https://media.giphy.com/media/pX4ypIJDYGwUw/source.gif);
   background-repeat: no-repeat;
-  background-size: 38px;
-  background-position: 55%, 45%;
+  background-size: 38px, 38px;
+  background-position: 55%, 45%, 75%;
   font-family: Nunito Sans;
-}
-
-p {
-  background: #92a8d1;
-  color: #fff;
-  padding: 10px;
-  margin: 0px 0px 5px 0px;
-  width: 100%;
-  font-family: Arial;
-  font-size: 14px;
 }
 p.bio {
   margin: 0px 0px 5px 0px;
@@ -50,14 +48,6 @@ p.bio {
   background-repeat: no-repeat;
   background-position: 15%, 85%;
 }
-p.menu {
-  font-family: Nunito Sans;
-  background: #92a8d1;
-  color: #fff;
-  padding: 10px;
-  margin: 0px 0px 5px 0px;
-  width: 100%;
-}
 p.links {
   color: #fff;
   padding: 10px;
@@ -66,7 +56,15 @@ p.links {
   font-size: 14px;
   text-align: center;
 }
-
+p.sideitems {
+  font-size: 14px;
+  font-family: Nunito Sans;
+  background: #92a8d1;
+  color: #fff;
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  width: 100%;
+}
 a {
   color: #fff;
 }
