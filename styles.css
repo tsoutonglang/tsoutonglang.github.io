@@ -38,6 +38,7 @@ font-size: 14px;
 p.bio {
   margin: 0px 0px 5px 0px;
   padding: 10px;
+  width: 100%;
   color: #fff;
   font-family: Allura;
   font-size: 23px;
@@ -52,6 +53,7 @@ p.links {
   color: #fff;
   padding: 10px;
   margin: 0px 0px 5px 0px;
+  width: 100%;
   font-family: Nunito Sans;
   font-size: 14px;
   text-align: center;
