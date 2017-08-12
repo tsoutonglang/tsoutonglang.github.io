@@ -1,12 +1,12 @@
 body {
   background-color: #f7cac9;
-  background-image: url("http://image.ibb.co/b0TeZa/pink.jpg");
+  background-image: url("img/background.jpg");
 }
 
 .header {
   background-color: #92a8d1;
   padding: 25px;
-  background-image: url(https://image.ibb.co/jPEeja/tumblr_static_6tn39y0ai4kkc40ogco8w40c0.png), url(https://image.ibb.co/irsocv/tumblr_static_e4cn6zomntsg88s84k4s88kks.png), url(https://68.media.tumblr.com/49d93069b28ad148e23a1747b021680b/tumblr_mtn5r7q2aN1rum8i3o1_400.gif), url(http://image.ibb.co/b9YfPa/tumblr_n06h07g_Djg1t7r88xo1_500.gif), url(http://image.ibb.co/d5aPZa/tumblr_oqa85t_OORg1ta3qx5o1_500.gif);
+  background-image: url(img/header/deadpool.png), url(img/header/chris.png), url(img/header/doctor.gif), url(img/header/star.gif), url(img/header/jimin.gif);
   background-repeat: no-repeat;
   background-size: 150px, 150px, 300px, 40px, 225px;
   background-position:66%, 0%, 100%, 8% 40%, 30%;
@@ -29,10 +29,10 @@ font-size: 14px;
   color: #fff;
   text-align: center;
   padding: 10px;
-  background-image: url(https://image.ibb.co/j9FVqF/edaf9786_f208_4067_b785_081226d3f66f.gif), url(https://media.giphy.com/media/pX4ypIJDYGwUw/source.gif);
+  background-image: url(img/footer/mario.gif), url(img/footer/batman.gif);
   background-repeat: no-repeat;
   background-size: 38px, 38px;
-  background-position: 55%, 45%, 75%;
+  background-position: 55%, 45%;
   font-family: Nunito Sans;
 }
 p.bio {
@@ -44,7 +44,7 @@ p.bio {
   font-size: 23px;
   letter-spacing: 2px;
   text-align: center;
-  background-image: url(http://image.ibb.co/kGOKHv/d80aa4e3ba54f429c93a52705302c9c9.png), url(http://image.ibb.co/b7Ktcv/Sombra_8bit.png);
+  background-image: url(img/bio/dva.png), url(img/bio/sombra.png);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 15%, 85%;
