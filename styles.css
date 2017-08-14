@@ -6,10 +6,10 @@ body {
 .header {
   background-color: #92a8d1;
   padding: 25px;
-  background-image: url(img/header/deadpool.png), url(img/header/chris.png), url(img/header/doctor.gif), url(img/header/star.gif), url(img/header/jimin.gif);
+  background-image: url(img/header/deadpool.png), url(img/header/chris.png), url(img/header/doctor.gif), url(img/header/star.jpg), url(img/header/jimin.gif);
   background-repeat: no-repeat;
-  background-size: 150px, 150px, 300px, 40px, 225px;
-  background-position:66%, 0%, 100%, 8% 40%, 30%;
+  background-size: 150px, 150px, 300px, 60px, 225px;
+  background-position:66%, 0%, 100%, 8% 35%, 30%;
   color: #fff;
   text-align: center;
   font-family: Allura;
