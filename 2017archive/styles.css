@@ -1,0 +1,114 @@
+body {
+  background-color: #f7cac9;
+  background-image: url("img/background.jpg");
+}
+
+.header {
+  background-color: #92a8d1;
+  padding: 25px;
+  background-image: url(img/header/deadpool.png), url(img/header/chris.png), url(img/header/doctor.gif), url(img/header/star.jpg), url(img/header/jimin.gif);
+  background-repeat: no-repeat;
+  background-size: 150px, 150px, 300px, 60px, 225px;
+  background-position:66%, 0%, 100%, 8% 35%, 30%;
+  color: #fff;
+  text-align: center;
+  font-family: Allura;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+p {
+background: #92a8d1;
+color: #fff;
+padding: 10px;
+margin: 0px 0px 5px 0px;
+font-family: Arial;
+font-size: 14px;
+}
+.footer {
+  background-color: #92a8d1;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  background-image: url(img/footer/mario.gif), url(img/footer/batman.gif);
+  background-repeat: no-repeat;
+  background-size: 38px, 38px;
+  background-position: 55%, 45%;
+  font-family: Nunito Sans;
+}
+p.bio {
+  margin: 0px 0px 5px 0px;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  font-family: Allura;
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-align: center;
+  background-image: url(img/bio/dva.png), url(img/bio/Sombra.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 15%, 85%;
+}
+p.links {
+  color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px 0px 5px 0px;
+  width: 100%;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  text-align: center;
+}
+p.sideitems {
+  font-size: 14px;
+  font-family: Nunito Sans;
+  background: #92a8d1;
+  color: #fff;
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  width: 100%;
+}
+a {
+  color: #fff;
+}
+img {
+  height: 225px;
+  background: #92a8d1;
+  padding: 10px;
+}
+img.pfp {
+  background: #92a8d1;
+  padding: 10px;
+  margin-left:23%;
+  height: 200px;
+}
+
+/* main 2 columns */
+.main {
+  width: 45%;
+  margin-left: 11%;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.side {
+ float: right;
+ width: 25%;
+ margin-right: 15%;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+
+/*music player*/
+#player {
+  width: 100%;
+  background-color: #92a8d1;
+  padding: 10px;
+  font-family: Nunito Sans;
+  color: #fff;
+  font-size: 14px;
+}
+audio {
+  width: 100%;
+}
