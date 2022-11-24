@@ -5,59 +5,75 @@
 <head>
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="screen.css">
-    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <script src="index.js" type="text/javascript" defer></script>
 
+    <link rel="icon" type="image/png" href="./img/favicon.png">
     <title>Tania Soutonglang</title>
 </head>
 
 <body>
-    <div id="page">
-        <!-------------------- NAV -------------------->
-
-        <header>
-            <h1><a href="./index.html">Tania Soutonglang</a></h1>
+    <div id="navigation">
+        <img src="./img/taiyaki.png" id="icon">
+        <div id="tab-container">
             <nav>
                 <ul>
-                    <li><a href="./index.html" id="selected">Home</a></li>
-                    <li><a href="./resume.html">Resume</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./index.html" class="tab-selected">Home</a></li>
+                    <li><a href="./resume.html" class="tab">Resume</a></li>
+                    <li><a href="./portfolio.html" class="tab">Portfolio</a></li>
                 </ul>
             </nav>
-        </header>
+        </div>
+    </div>
 
-        <section id="content">
-
-            <!-------------------- ABOUT -------------------->
-
-            <section id="about">
-                <h2>About Me</h2>
-                <p>I'm Tania Soutonglang, she/they. I'm a first generation Thai-American studying computer science with a minor in game studies and design at Illinois Institute of Technology.
-                    I'm also a Girls Who Code Summer Immersion program alumni. In that program I created my first website with HTML and CSS, and learned the basics of Python. For my final project in the program, my group created a website and Scratch game to raise awareness about water pollution. </p>
-                <p>I have a passion for creating stories with art, whether it is a simple illustration of a person sitting on at a cafe or a full comic about heartbreak. I have been an intern at Manga Art Studio since April 2020, a collective group of Chicago students where I work on improving my digital art and story telling skills.
-                    Each week we have a weekly task to push our skills to create something new. We are also learning basics of animation including cleaning and coloring frames, and using that experience to create an upcoming original video animation.</p>
-                <p>I have been using my experience and passion in art and programming to teach myself the language Ren'Py. I hope to create and release my own visual novel game based off of a story I made in high school. It is currently still in the storyline planning and character design stages, but I plan to gather a team of people who could help me with the writing, coding, and art.</p>
-                <p>Currently I'm looking for internships that would help me gain more experience in software programming.</p>
-            </section>
+    <div id="search-bar">
+        <div class="button" style="margin-left: 15px;"><a href="./portfolio.html"><img src="./ico/left.png"></a></div>
+        <div class="button"><a href="./resume.html"><img src="./ico/right.png"></a></div>
+        <div class="button"><a href="./index.html"><img src="./ico/refresh.png"></a></div>
+        <div class="button"><a href="./index.html"><img src="./ico/home.png"></a></div>
         
-            <!-------------------- CONTACT -------------------->
+        <div id="sitebar"><p>https://tsoutonglang.github.io/my-site</p></div>
+        
+        <div class="button" style="margin-right: 15px;"><img src="./ico/settings.png"></div>
+    </div>
 
-            <section id="contact">
-                <h2>Contact</h2>
+    <div id="page-container"> 
+        <div id = "sidebar">
+            <h1>Tania Soutonglang</h1>
+
+            <div id="avatar-border">
                 <img src="./img/avatar.png" alt="A portrait of myself smiling. I have circular glasses and black roots blending into faded green hair." id="avatar"/>
-                <p><a href="mailto:tsoutonglang12@gmail.com">Email: tsoutonglang12@gmail.com</a></p>
-                <p><a href="https://github.com/tsoutonglang" target="_blank">GitHub: tsoutonglang</a></p>
-                <p><a href="https://www.linkedin.com/in/tania-soutonglang/" target="_blank">LinkedIn</a></p>
-            </section>
+            </div>
 
-        </section>
+            <h2 style="text-align: center; margin: 28px 0 0 0">Contact</h2>
+            
+            <div id="sidebar-links">
+                <div class="contact"><a href="mailto:tsoutonglang12@gmail.com" target="_blank"><img src="./ico/mail.png"></a></div>
+                <div class="contact"><a href="https://github.com/tsoutonglang" target="_blank"><img src="./ico/github.png"></a></div>
+                <div class="contact"><a href="https://www.linkedin.com/in/tania-soutonglang/" target="_blank"><img src="./ico/linkedin.png"></a></div>
+            </div>
+        </div>
 
-        <section id="footer">
-            © 2021 Tania Soutonglang
-        </section>
+        <div id="page">
+            <h2 style="justify-content: center;">About Me</h2>
+            <p>I'm Tania Soutonglang, she/they. I'm a first generation Thai-American undergrad student at Illinois Institute of Technology. There, I'm pursuing a Bachelor's degree in Computer Science with a minor in Game Studies and Design, as well as a Master's degree in Artificial Intelligence.
+                I'm also a Girls Who Code Summer Immersion program alumni. In that program I created my first website with HTML and CSS, and learned the basics of Python. For my final project in the program, my group created a website and Scratch game to raise awareness about water pollution. </p>
+            <p>I have a passion for creating stories with art, whether it is a simple illustration of a person sitting on at a cafe or a full comic about heartbreak. I was an intern at Manga Art Studio from April 2020 to March 2022. MAS is a collective group of Chicago students where we work on improving our digital art and story telling skills.
+                Each week we had a weekly task to push our skills to create something new in the style of Japanese manga art. We also learned the basics of animation, including cleaning and coloring frames, and used that experience to create an upcoming original video animation.</p>
+            <p>I have been using my experience and passion in art and programming to teach myself the language Ren'Py. I hope to create and release my own visual novel game based off of a story I made in high school. It is currently still in the storyline planning and character design stages, but I hope to gather a team of people who could help me with the writing, coding, and art.</p>
+            <p>Currently I'm looking for internships that would help me gain more experience in software programming while also including my passion for design and art.</p>
+        </div>
+
+    </div>
+
+    <div id="footer">
+
     </div>
 </body>
-</html>
