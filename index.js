@@ -1,5 +1,11 @@
-const template = document.createElement("template");
+const open = document.getElementById("open");
+const modal_container = document.getElementById("modal_container");
+const close = document.getElementById("close");
 
-template.innerHTML = html.trim();
+open.addEventListener("click", ()=> {
+    modal_container.classList.add("show");
+});
 
-return template.content.firstElementChild;
+close.addEventListener("click", ()=> {
+    modal_container.classList.remove("show");
+});

@@ -13,7 +13,7 @@
     --text-color: #27233A;
     --text-font: 'Roboto Slab', serif;
     
-    --header-font: 'Roboto Slab', serif;
+    --header-font: 'Lato', sans-serif;;
     --header-color: #27233A;
 }
 
@@ -37,16 +37,22 @@
 }
 
 ::selection {
-  color: var(--text-color);
-  background-color: var(--page-color);
+    background-color: var(--accent);
+    color: var(--text-color);
 }
 
 body {
     background-color: var(--page-color);
     font-family: var(--text-font);
-    font-size: 1em;
+    font-size: 15px;
     color: var(--text-color);
     overflow:hidden;
+}
+p {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    text-align: left;
 }
 a {
     text-decoration: none;
@@ -55,14 +61,32 @@ a {
 h1 {
     font-family: var(--header-font);
     color: var(--header-color);
-    font-size: 200%;
+    font-size: 32px;
     width: auto;
     margin: 0 0 10px 0;
     text-align: center;
 }
 h2 {
+    font-family: var(--header-font);
+    font-size: 24px;
     color: var(--header-color);
-    font-size: 28px;
+    margin-bottom: 14px;
+}
+h3 {
+    font-family: var(--text-font);
+    font-size: 18px;
+    color: var(--header-color);
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+h4 {
+    font-family: var(--text-font);
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul {
+    margin-top: 0px;
 }
 
 /* navigation bar */
@@ -120,7 +144,7 @@ h2 {
 }
 nav ul {
     list-style: none;
-    font-size: .75em;
+    font-size: 13px;
     padding: 0px;
 }
 nav ul li {
@@ -173,6 +197,42 @@ nav ul li {
     font-size: .75em;
     margin-top: -2px;
 }
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3 );
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal {
+    background-color: var(--container-color);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    max-width: 100%;
+    padding: 28px;
+    text-align: center;
+}
+button {
+    background-color: var(--accent);
+    color: var(--text-color);
+    border: outset var(--page-color-dark);
+    border-radius: 15px;
+    padding: 10px 28px;
+    font-family: var(--text-font);
+    font-size: 1em;
+    color: var(--text-color);
+}
 
 /* main part of page */
 #page-container {
@@ -194,7 +254,7 @@ nav ul li {
 /* sidebar */
 #sidebar {
     background-color: var(--page-color);
-    border: outset #d3cccc;
+    border: inset #d3cccc;
     border-radius: 15px;
     box-shadow: 5px 5px 20px #d3cccc;
     margin: 10px 10px 0 15px;
@@ -222,19 +282,13 @@ nav ul li {
     margin-top: 0;
 }
 .contact {
-    width: 28px;
-    height: 28px;
-    margin: 10px;
+    margin-top: 10px;
     margin-left: 14px;
     margin-right: 14px;
 }
 .contact img {
     width: 28px;
     height: 28px;
-}
-.contact:hover {
-    background-color: var(--accent);
-    border-radius: 50%;
 }
 
 /* page content */
@@ -250,8 +304,34 @@ nav ul li {
     overflow: auto;
 }
 
-.content {
+/* resume section */
+.section-head {
+    overflow: auto;
+    margin-top: 0px;;
+}
+.title {
+    float:left;
+}
+.date {
+    float:right;
+    text-align: right;
+    margin-bottom: 0px;
+}
 
+/* projects section */
+.project-row {
+    margin-top: 14px;
+}
+.project-column {
+    float: left;
+    width: 25%;
+    padding: 28px;
+    text-align: left;
+}
+.project-row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* footer */
@@ -262,5 +342,11 @@ nav ul li {
     border-radius: 0 0 5px 5px;
     width: 100%;
     margin: 0;
-    padding-bottom: 50px;
+}
+#footer p{
+    color: var(--page-color-dark);
+    text-align: center;
+    padding-left: 28px;
+    padding-bottom: 1%;
+    margin: 0;
 }

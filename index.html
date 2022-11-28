@@ -8,8 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="screen.css">
@@ -27,21 +26,31 @@
                 <ul>
                     <li><a href="./index.html" class="tab-selected">Home</a></li>
                     <li><a href="./resume.html" class="tab">Resume</a></li>
-                    <li><a href="./portfolio.html" class="tab">Portfolio</a></li>
+                    <li><a href="./projects.html" class="tab">Projects</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
     <div id="search-bar">
-        <div class="button" style="margin-left: 15px;"><a href="./portfolio.html"><img src="./ico/left.png"></a></div>
+        <!-- potentially change divs to <buttons> -->
+        <div class="button" style="margin-left: 15px;"><a href="./projects.html"><img src="./ico/left.png"></a></div>
         <div class="button"><a href="./resume.html"><img src="./ico/right.png"></a></div>
         <div class="button"><a href="./index.html"><img src="./ico/refresh.png"></a></div>
         <div class="button"><a href="./index.html"><img src="./ico/home.png"></a></div>
         
-        <div id="sitebar"><p>https://tsoutonglang.github.io/my-site</p></div>
+        <div id="sitebar"><p>https://tsoutonglang.github.io/index</p></div>
         
-        <div class="button" style="margin-right: 15px;"><img src="./ico/settings.png"></div>
+        <div class="button" style="margin-right: 15px;"><img id="open" src="./ico/settings.png"></div>
+
+        <div class="modal-container" id="modal-container">
+            <div class="modal">
+                <h2>Hello!</h2>
+                <button is="close">
+                    Close me
+                </button>
+            </div>
+        </div>
     </div>
 
     <div id="page-container"> 
@@ -70,10 +79,9 @@
             <p>I have been using my experience and passion in art and programming to teach myself the language Ren'Py. I hope to create and release my own visual novel game based off of a story I made in high school. It is currently still in the storyline planning and character design stages, but I hope to gather a team of people who could help me with the writing, coding, and art.</p>
             <p>Currently I'm looking for internships that would help me gain more experience in software programming while also including my passion for design and art.</p>
         </div>
-
     </div>
 
     <div id="footer">
-
+        <p>© 2022 Tania Soutonglang</p>
     </div>
 </body>
