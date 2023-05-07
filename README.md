@@ -1,6 +1,70 @@
-<h1>professional website for COM 421</h1>
+# Getting Started with Create React App
 
-<p>When you first open my website you're on my about me page. On the left column is my biography about my background in pramming and in the right column is my contact info and links to my LinkedIn and GitHub.</p>
-<p>The next link is my resume. My experience, education, projects, and skills are listed. At the bottom of the page is the download button to the PDF version of my resume. The titles of both of my projects are links to their respective pages.</p>
-<p>The last link in my navigation is my portfolio. Since a lot of my passion comes from making art and games, I figured I should show some of my art and the one game I finished. Most of the images have a link to its own Instagram post, this is because some of the pieces have multiple parts, and I was not able to incorporate multiple slideshows without the JavaScript breaking. I also have descriptions or commentary on each piece, and I did not have enough time to create a new page for each work. Hopefully I can eventually figure out a solution because I have more physical pieces I wanted to show but since they were large sets, I didn't want to add all of them to the page. At the bottom of the page is the email I use just for my art related business (this is mostly because I prefer to keep my online persona and real life persona as separate as possible) and links to my art Instagram, Twitter, and commission info. I also wished that I could have made this page have the masonry grid (think Pinterest), however I couldn't find a simpler way to make each image span correctly without moving each previous image or creating a whole individual grid and also have each image appear in the right order. I think that if I add more images to this one page, I should try making each image pop out and enlargened when you click on it, but I was afraid it would have the same problem as the slideshow and wouldn't work since there's multple modal images.</p>
-<p>Overall, I say that this website is a huge step up from the website I made when I was 16. I had a lot of fun figuring out how to make the portfolio how I'd be most proud of it considering the time I had available to work on, and I want to work on it more even after the project is done.</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
