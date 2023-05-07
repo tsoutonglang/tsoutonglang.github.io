@@ -7,8 +7,8 @@
   --header-height: 3rem;
 
   /* ==== COLORS ==== */
-  --hue: 0;
-  --sat: 0%;
+  --hue: 1.3;
+  --sat: 74.2%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
@@ -168,6 +168,10 @@ img {
 /* ==== BREAKPOINTS ==== */
 /* large screens */
 @media screen and (max-width: 992px) {  
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* medium screens */
@@ -179,4 +183,8 @@ img {
 
 /* small screens */
 @media screen and (max-width: 350px) {  
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
