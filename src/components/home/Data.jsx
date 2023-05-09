@@ -5,7 +5,9 @@ const Data = () => {
         <div className="home_data">
             <h1 className="home_title">Tania Soutonglang</h1>
             <h3 className="home_subtitle">Undergraduate Student</h3>
-            <p className="home_description">I'm currently attending Illinois Institute of Technology and persuring a Bachelor's degree in Computer Science with a minor in Game Studies and Design as well as a Master's degree in Artificial Intelligence. I'm passionate about digital art and video games and hope to find a career that would combine all of my interests for software with design.</p>
+            <p className="home_description">
+                I'm passionate about digital art and video games and hope to find a career 
+                that would combine all of my interests for software with design.</p>
 
             <a href="#contact" className='button button--flex'>
                 Say Hello!
