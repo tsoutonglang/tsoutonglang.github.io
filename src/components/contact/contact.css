@@ -38,9 +38,58 @@
 }
 
 .contact_card-title {
-    
+    font-weight: var(--font-medium);
 }
 
-.contact_form {
-    width: 300px;
+.contact_card-data {
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+.contact_button {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contact_button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.contact_button:hover .contact_button-icon {
+    transform: translate(0.25rem);
+}
+
+/* ==== BREAKPOINTS ==== */
+/* large screens */
+@media screen and (max-width: 992px) {
+    .contact_container {
+        column-gap: 3rem;
+    }
+}
+
+/* medium screens */
+@media screen and (max-width: 768px){
+    .contact_container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact_info {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .contact_info {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* small screens */
+@media screen and (max-width: 350px) {
 }

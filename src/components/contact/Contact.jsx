@@ -9,8 +9,6 @@ const Contact = () => {
 
             <div className="contact_container container grid">
                 <div className="contact_content">
-                    <h3 className="contact_title">Talk to me</h3>
-                    
                     <div className="contact_info">
                         <div className="contact_card">
                             <i className="bx bx-mail-send contact_card-icon"></i>
@@ -21,30 +19,24 @@ const Contact = () => {
                             <a href="mailto:tsoutonglang12@gmail.com" className="contact_button">Write me{" "}
                             <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
+                    </div>
+                </div>
 
+                <div className="contact_content">   
+                    <div className="contact_info">
                         <div className="contact_card">
-                            <i className="bx bx-card contact_card-icon"></i>
+                            <i className="bx bxl-linkedin contact_card-icon"></i>
 
-                            <h3 className="contact_card-title">Carrd</h3>
-                            <span className="contact_card-data">[number]</span>
-
-                            <a href="https://spacebvnnyexe.carrd.co" className="contact_button">Write me{" "}
-                            <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
-                        </div>
-
-                        <div className="contact_card">
-                            <i className="bx bxl-instagram contact_card-icon"></i>
-
-                            <h3 className="contact_card-title">Instagram</h3>
+                            <h3 className="contact_card-title">LinkedIn</h3>
                             <span className="contact_card-data">Tania Soutonglang</span>
 
-                            <a href="https://instagram.com/gudetania" className="contact_button">Write me{" "}
+                            <a href="https://linkedin.com/ln/taniasoutonglang" className="contact_button">Write me{" "}
                             <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div className="contact_content">
+                {/* <div className="contact_content">
                     <h3 className="contact_title">Project Inqueries</h3>
 
                     <form className="contact_form">
@@ -98,7 +90,7 @@ const Contact = () => {
                             </svg>
                         </button>
                     </form>
-                </div>
+                </div> */}
             </div>
         </section>
     )
