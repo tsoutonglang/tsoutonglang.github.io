@@ -5,23 +5,13 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">Soutonglang</h1>
-
-                <ul className="footer_list">
-                    <li>
-                        <a href="#about" className="footer_link">About</a>
-                    </li>
-
-                    <li>
-                        <a href="#portfolio" className="footer_link">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#qualification" className="footer_link">Qualification</a>
-                    </li>
-                </ul>
+                <h1 className="footer_title">Tania Soutonglang</h1>
 
                 <div className="footer_social">
+                    <a href="mailto:tsoutonglang12@gmail.com" className="footer_social-link" target="_blank" rel="noreferrer">
+                        <i class="uil uil-fast-mail"></i>
+                    </a>
+
                     <a href="https://github.com/tsoutonglang/" className="footer_social-link" target="_blank" rel="noreferrer">
                         <i class="uil uil-github-alt"></i>
                     </a>

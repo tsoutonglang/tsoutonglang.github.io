@@ -21,6 +21,10 @@
     font-weight: var(--font-medium);
 }
 
+.nav_logo-img {
+    width: 50px;
+}
+
 .nav_list {
     display: flex;
     column-gap: 2rem;

@@ -9,8 +9,8 @@ const Data = () => {
                 I'm passionate about digital art and video games and hope to find a career 
                 that would combine all of my interests for software with design.</p>
 
-            <a href="#contact" className='button button--flex'>
-                Say Hello!
+            <a href="/portfolio" className='button button--flex'>
+                View My Work
                 <svg
                     class="button__icon"
                     xmlns="http://www.w3.org/2000/svg"

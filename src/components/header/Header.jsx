@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import "./header.css";
+import logo from "../../assets/logo.png"
 
 const Header = () => {
     /* ==== Change Background Header ==== */
@@ -17,57 +18,53 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nac_logo">Tania</a>
+                <a href="/home" className="nav_logo">
+                    <img src={logo} alt="" className="nav_logo-img" />
+                </a>
 
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grid">
+                        {/* home */}
                         <li className="nav_item">
-                            <a href="#home" 
-                                onClick={() => setActiveNav ('#home')} 
-                                className={activeNav === "#home" ? 
+                            <a href="/home" 
+                                onClick={() => setActiveNav ('/home')} 
+                                className={activeNav === "/home" ? 
                                     "nav_link active-link" : "nav_link"}
                              >
                                 <i className="util uil-estate nav_icon"></i> Home
                             </a>
                         </li>
 
+                        {/* about */}
                         <li className="nav_item">
-                            <a href="#about"
-                                onClick={() => setActiveNav ('#about')} 
-                                className={activeNav === "#about" ? 
+                            <a href="/about"
+                                onClick={() => setActiveNav ('/about')} 
+                                className={activeNav === "/about" ? 
                                     "nav_link active-link" : "nav_link"}
                             >
                                 <i className="util uil-user nav_icon"></i> About
                             </a>
                         </li>
 
+                        {/* skills */}
                         <li className="nav_item">
-                            <a href="#skills" 
-                                onClick={() => setActiveNav ('#skills')} 
-                                className={activeNav === "#skills" ? 
+                            <a href="/skills" 
+                                onClick={() => setActiveNav ('/skills')} 
+                                className={activeNav === "/skills" ? 
                                     "nav_link active-link" : "nav_link"}
                             >
                                 <i className="util uil-file-alt nav_icon"></i> Skills
                             </a>
                         </li>
 
+                        {/* portfolio */}
                         <li className="nav_item">
-                            <a href="#portfolio"
-                                onClick={() => setActiveNav ('#portfolio')} 
-                                className={activeNav === "#portfolio" ? 
+                            <a href="/portfolio"
+                                onClick={() => setActiveNav ('/portfolio')} 
+                                className={activeNav === "/portfolio" ? 
                                     "nav_link active-link" : "nav_link"}
                             >
                                 <i className="util uil-scenery nav_icon"></i> Portfolio
-                            </a>
-                        </li>
-
-                        <li className="nav_item">
-                            <a href="#contact"
-                                onClick={() => setActiveNav ('#contact')} 
-                                className={activeNav === "#contact" ? 
-                                    "nav_link active-link" : "nav_link"}
-                            >
-                                <i className="util uil-message nav_icon"></i> Contact
                             </a>
                         </li>
                     </ul>

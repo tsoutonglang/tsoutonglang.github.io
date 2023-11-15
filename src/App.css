@@ -10,7 +10,7 @@
   --hue: 1.3;
   --sat: 74.2%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 5%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 95%);
   /* --container-color: #fff; */

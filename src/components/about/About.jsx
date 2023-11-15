@@ -3,12 +3,13 @@ import "./about.css";
 import AboutImg from "../../assets/about.png";
 import Resume from "../../assets/Resume_Tania_Soutonglang.pdf";
 import Info from "./Info";
+import Extra from "./Extra";
 
 const About = () => {
     return (
         <section className="about section" id="about">
-            <h2 className="section_title">About Me</h2>
-            <span className="section_subtitle">My Introduction</span>
+            <h2 className="section_title">Hello, I'm Tania!</h2>
+            <span className="section_subtitle">(*・ω・)ﾉ</span>
 
             <div className="about_container container grid">
                 <img src={AboutImg} alt="" className="about_img" />
@@ -16,11 +17,13 @@ const About = () => {
                 <div className="about_data">
                     <Info />
                     
-                    <p className="about_description">I'm currently attending Illinois Institute of Technology and 
-                    persuring a Bachelor's degree in Computer Science with a minor in Game Studies and Design 
-                    as well as a Master's degree in Artificial Intelligence.</p>
+                    <p className="about_description">
+                        I'm an undergraduate student at Illinois Institute of Technology persuring a 
+                        Bachelor's degree in Computer Science with a minor in Game Studies and Design 
+                        as well as a Master's degree in Artificial Intelligence thanks to the Co-terminal Program.
+                    </p>
 
-                    <a download="" href={Resume} className="button button--flex">Download Resume
+                    <a download="" href={Resume} className="button button--flex">Download Resume 
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +48,10 @@ const About = () => {
                     </a>
                 </div>
             </div>
+
+            <Extra />
+
+            
         </section>
     )
 }
