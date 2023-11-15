@@ -8,6 +8,7 @@ import Qualification from './components/qualification/Qualification';
 import Work from './components/work/Work';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer.jsx';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   return (
@@ -21,8 +22,10 @@ const App = () => {
       <Qualification />
       <Work />
       <Contact />
-      <Footer />
     </main>
+
+    <Footer />
+    <ScrollUp />
     </>
   )
 }
