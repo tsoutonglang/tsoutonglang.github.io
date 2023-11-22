@@ -1,0 +1,3 @@
+day background color:
+RGB: (178, 204, 237)
+HEX: #b2cced

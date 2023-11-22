@@ -3,7 +3,7 @@ import AboutImg from "../../assets/about.png";
 
 const Extra = () => {
     return (
-        <section className="about section">
+        <div className="about section">
             <h2 className="section_title">More About Me!</h2>
             <span className="section_subtitle">(≧◡≦)</span>
 
@@ -18,7 +18,7 @@ const Extra = () => {
                         I also enjoy cosplaying and go to conventions in my free time.
                     </p>
 
-                    <p>
+                    <p className="about_description">
                         I'm a second-generation Thai-American. I'm currently learning how to speak Thai and Spanish, 
                         and I hope I can travel the world after I graduate Illinois Tech.
                         I have three cats who are the loves of my life: Jam, Jelly, and Kewpie!
@@ -89,7 +89,7 @@ const Extra = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

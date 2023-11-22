@@ -9,9 +9,9 @@
   /* ==== COLORS ==== */
   --hue: 1.3;
   --sat: 74.2%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: hsl(var(--hue), var(--sat), 30%);
   --title-color-dark: hsl(var(--hue), var(--sat), 5%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color: hsl(var(--hue), var(--sat), 10%);
   --body-color: hsl(var(--hue), var(--sat), 95%);
   /* --container-color: #fff; */
   --container-color: hsl(var(--hue), var(--sat), 98%);

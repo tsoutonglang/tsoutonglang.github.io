@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="/home" className="nav_logo">
+                <a href="/" className="nav_logo">
                     <img src={logo} alt="" className="nav_logo-img" />
                 </a>
 
@@ -26,9 +26,9 @@ const Header = () => {
                     <ul className="nav_list grid">
                         {/* home */}
                         <li className="nav_item">
-                            <a href="/home" 
-                                onClick={() => setActiveNav ('/home')} 
-                                className={activeNav === "/home" ? 
+                            <a href="/" 
+                                onClick={() => setActiveNav ('/')} 
+                                className={activeNav === "/" ? 
                                     "nav_link active-link" : "nav_link"}
                              >
                                 <i className="util uil-estate nav_icon"></i> Home

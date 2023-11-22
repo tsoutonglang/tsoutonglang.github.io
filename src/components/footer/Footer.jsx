@@ -17,7 +17,7 @@ const Footer = () => {
                     </a>
 
                     <a href="https://www.linkedin.com/in/taniasoutonglang/" className="footer_social-link" target="_blank" rel="noreferrer">
-                        <i class="uil uil-linkedin-alt"></i>
+                        <i class='bx bxl-linkedin'></i>
                     </a>
                 </div>
             </div>
