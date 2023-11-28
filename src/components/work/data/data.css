@@ -1,30 +1,46 @@
 .data_container {
     margin-bottom: var(--mb-1);
     align-items: center;
+    justify-content: center;
 }
 
-.data_container-grid {
-    /* grid-template-columns: repeat(2, 1fr);
-    align-items: center; */
+.data_container-header { 
+    margin-bottom: var(--mb-2);
+    width: 100%;
+}
+
+.data_container-intro {
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
+    margin-bottom: var(--mb-2);
+    align-items: center;
 }
 
-.data_container-wip {
-    /* text-align: center; */
+.data_container-process {
+    text-align: center;
 }
 
-/* .data_data {
+.process_step {
+    margin-bottom: var(--mb-1);
+    text-align: left;
+}
 
-} */
+.data_stat_title {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.data_stats {
+    margin-bottom: var(--mb-1);
+}
 
 .data_img {
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
 
-.data_img-header {
-    max-width: 80%;
-    justify-content: center;
+a:hover {
+    color: var(--title-color-dark);
 }
 
 /* ---- go back button --- */
@@ -48,6 +64,7 @@
 
 .goback:hover {
     background-color: var(--title-color-dark);
+    color: var(--body-color)
 }
 
 /* ---- next button --- */
@@ -71,5 +88,5 @@
 
 .next:hover {
     background-color: var(--title-color-dark);
-    
+    color: var(--body-color)
 }

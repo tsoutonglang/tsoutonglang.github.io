@@ -17,10 +17,6 @@
     margin-bottom: var(--mb-2);
 }
 
-.footer_link {
-    color: var(--title-color-dark)
-}
-
 .footer_social {
     display: flex;
     justify-content: center;
@@ -38,13 +34,7 @@
 
 .footer_social-link:hover {
     background-color: var(--title-color-dark);
-}
-
-.footer_copy {
-    display: block;
-    margin-top: 4.5rem;
-    color: var(--title-color);
-    text-align: var(--smaller-font-size);
+    color: var(--body-color);
 }
 
 /* ==== BREAKPOINTS ==== */

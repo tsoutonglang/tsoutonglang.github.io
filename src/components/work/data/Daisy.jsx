@@ -1,6 +1,6 @@
 import React from 'react';
 import './data.css';
-import daisy from '../../../assets/daisy/daisy.png';
+import header from '../../../assets/daisy/header.png';
 
 const Daisy = () => {
     return (
@@ -9,11 +9,13 @@ const Daisy = () => {
             <span className="section_subtitle">A Discord Moderation Bot</span>
 
             <div className="data_container container">
-                <div className="data_container-grid grid">
+                <div className="data_container-header">
+                    <img src={header} alt="" className="data_img" />
+                </div>
+                
+                <div className="data_container-intro grid">
                     {/* stats column */}
                     <div className="data_data">
-                        <img src={daisy} alt="" className="data_img" />
-
                         <div className="data_stats">
                             <p className="data_stat_title">My Role</p>
                             <span className="data_stat">Programmer, designer</span>
@@ -34,14 +36,20 @@ const Daisy = () => {
                     {/* desc column */}
                     <div className="data_data">
                         <p className="data_description">
-                            A Discord bot created for the server <i>Anime & Artists</i>.
+                        Since 2021, I've been programming and overseeing the operations of a dedicated bot for the <i>Anime & Artists</i> server. 
+                        The bot serves a dual purpose of efficient server moderation and curated entertainment through a collection of reaction gifs. 
+                        While there are plenty of publicly available bots on Discord, my goal was to create a bespoke solution that was tailor-made for the server's first-year celebration.
                         </p>
                     </div>
                 </div>
 
-                <div className="data_container-wip">
+                <div className="data_container-process">
                     <h3 className="data_title">Process</h3>
-                    <p>This is the wip section</p>
+                    
+                    <div className="process_step">
+                        <h4> 1. Getting Started</h4>
+                        <p>  </p>
+                    </div>
                 </div>
                 
             </div>

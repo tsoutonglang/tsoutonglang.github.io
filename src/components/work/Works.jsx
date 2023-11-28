@@ -15,7 +15,11 @@ const Works = () => {
 
         else {
             const newProjects = projectsData.filter((project) => {
-                return project.category.toLowerCase() === item.name;
+                const search = project.category.toLowerCase() === item.name;
+                return search;
+
+                // const search = project.category.filter((key) => key.toLowerCase() === item.name);
+                // return search;
             });
             setProjects(newProjects);
         }

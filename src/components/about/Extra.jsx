@@ -27,7 +27,7 @@ const Extra = () => {
             </div>
 
             <h2 className="section_title">Quick Fun Facts</h2>
-            <span className="section_subtitle">(≧◡≦)</span>
+            <span className="section_subtitle">˚ʚ♡ɞ˚</span>
             
             <div className="about_funfacts-box">
                 <div className="about_group">

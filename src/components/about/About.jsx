@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/about.png";
-import Resume from "../../assets/Resume_Tania_Soutonglang.pdf";
+// import Resume from "../../assets/Resume_Tania_Soutonglang.pdf";
 import Info from "./Info";
 import Extra from "./Extra";
 
@@ -23,7 +23,7 @@ const About = () => {
                         as well as a Master's degree in Artificial Intelligence thanks to the Co-terminal Program.
                     </p>
 
-                    <a download="" href={Resume} className="button button--flex">Download Resume 
+                    {/* <a download="" href={Resume} className="button button--flex">Download Resume 
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const About = () => {
                                 d="M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z"
                                 fill="var(--container-color)"></path>
                         </svg>
-                    </a>
+                    </a> */}
                 </div>
             </div>
 

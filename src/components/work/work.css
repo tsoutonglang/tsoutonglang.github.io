@@ -21,7 +21,7 @@
 }
 
 .work_container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     gap: 3rem;
     justify-content: center;
 }
@@ -78,6 +78,7 @@
 
     .work_card {
         padding: 1rem;
+        margin: auto;
     }
 
     .work_img {
@@ -99,6 +100,7 @@
 @media screen and (max-width: 576px){
     .work_container {
         grid-template-columns: 1fr;
+        
     }
 
     .work_img {
