@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78311b1c.css",
+    "main.js": "/static/js/main.a98a990e.js",
+    "static/js/787.2774634d.chunk.js": "/static/js/787.2774634d.chunk.js",
+    "static/media/live&evil.jpg": "/static/media/live&evil.e1932ec86bd6486b1d50.jpg",
+    "static/media/cosmic_duels.png": "/static/media/cosmic_duels.48ba6ac5b3968116e328.png",
+    "static/media/headshot.JPG": "/static/media/headshot.620216d96e67a2ea8440.JPG",
+    "static/media/header.jpg": "/static/media/header.27882b4fe2269f6ed05e.jpg",
+    "static/media/header.png": "/static/media/header.45464a3e8c0346e12b9b.png",
+    "static/media/always_creating.jpg": "/static/media/always_creating.539491bd923cf390a819.jpg",
+    "static/media/in_the_next_life.jpg": "/static/media/in_the_next_life.dcbe008858da51185658.jpg",
+    "static/media/about.png": "/static/media/about.d353d476aa2388bb5133.png",
+    "static/media/inheritance.png": "/static/media/inheritance.1622560351aed2062969.png",
+    "static/media/daisy.png": "/static/media/daisy.8b2e23cfe84deaf94409.png",
+    "static/media/toalltheboys.png": "/static/media/toalltheboys.8dfa0f659896eca38f38.png",
+    "static/media/Resume_Tania_Soutonglang.pdf": "/static/media/Resume_Tania_Soutonglang.ddcaa32dc428f3741e2e.pdf",
+    "index.html": "/index.html",
+    "main.78311b1c.css.map": "/static/css/main.78311b1c.css.map",
+    "main.a98a990e.js.map": "/static/js/main.a98a990e.js.map",
+    "787.2774634d.chunk.js.map": "/static/js/787.2774634d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78311b1c.css",
+    "static/js/main.a98a990e.js"
+  ]
+}
